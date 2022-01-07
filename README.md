@@ -36,12 +36,12 @@ project name
 ### Usage
 
 This Pytorch Lightning pipeline can used for any Machine Learning problem with the following modifications:
-- Modify the crossvalidation scheme inside the *dataprep.py* module
-- Modify the data prep_data function within the *dataprep.py* module
-- Modify the Datasets within the *datasets.py* module
-- Modify the prepare_data method within the *datasets.py* module
-- Change the loss function within the *model.py* module
-- Change the metric within the *model.py* and the *main.py* module
-- Use another Pytorch model
-- Modify the way that predictions are made
+- *create_folds* function inside the *dataprep.py* module
+- *prep_data* function within the *dataprep.py* module
+- Datasets within the *datasets.py* module
+- *prepare_data* method within the *datasets.py* module
+- Loss function within the *model.py* module
+- Metric within the *model.py* and the *main.py* module
+- The Pytorch model
+- The way that predictions are made
 
