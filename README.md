@@ -5,7 +5,7 @@ This repository contains a full Pytorch Lightning pipeline with the main goal of
 The code was tested using the data from https://www.kaggle.com/c/tabular-playground-series-dec-2021.
 
 ***
-### Folder structure
+### Folder structure for future projects
 ```
 project name    
 │
